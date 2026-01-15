@@ -31,7 +31,23 @@ public class Todo{
 		return userId;
 	}
 
-	@Override
+    public void setCompleted(boolean completed) {
+        this.completed = completed;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setUserId(int userId) {
+        this.userId = userId;
+    }
+
+    @Override
  	public String toString(){
 		return 
 			"Todo{" + 
